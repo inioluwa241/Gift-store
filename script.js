@@ -56,14 +56,14 @@ serviceImgCon.forEach(function (ol, i) {
     serviceImgCon[i].append(img);
   }
 });
-service.forEach(function(single){
-  if(single.style.width='50%'){
-    const stuff=document.querySelectorAll(".about-image-container")
-    stuff.forEach(function(each){
-      each.style.width="25rem"
-    })
-  }
-})
+// service.forEach(function(single){
+//   if(single.style.width='50%'){
+//     const stuff=document.querySelectorAll(".about-image-container")
+//     stuff.forEach(function(each){
+//       each.style.width="25rem"
+//     })
+//   }
+// })
 
 // list.forEach(function (ol, i) {
 //   if (url.includes("services")) {

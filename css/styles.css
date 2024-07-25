@@ -537,7 +537,8 @@ contact
   .service {
     float: left;
     width: 50%;}
-}
+    .about-image-container {width: 23rem;}
+  }
 @media screen and (min-width: 650px) {
   .product {
     float: left;
