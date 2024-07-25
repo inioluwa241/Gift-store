@@ -544,7 +544,7 @@ contact
     float: left;
     width: 50%;
     padding-right: 2rem;}
-.about-image-container {width: 30rem;}
+  .about-image-container{width: 30rem;}
 }
 @media screen and (min-width: 768px) {
   .navbar {

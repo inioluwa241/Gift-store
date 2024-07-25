@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 .section-title h2 {margin: 1rem 0 0 2.5rem;}
-.about-image-container {margin-bottom: 4rem;}
+.about-image-container {margin-bottom: 4rem;
+width: 18rem;}
 .about-info{width: 100%;}
 .nav-btn {
   position: fixed;
@@ -26,39 +26,9 @@
   text-indent: 20px;}
 @media screen and (min-width: 570px) {
   p{max-width: 120%;}
+  .about-image-container {margin-bottom: 4rem;
+    width: 20rem;}
 }
 @media screen and (min-width: 750px) {
   p{max-width: 200%;}
-=======
-.section-title h2 {margin: 1rem 0 0 2.5rem;}
-.about-image-container {margin-bottom: 4rem;}
-.about-info{width: 100%;}
-.nav-btn {
-  position: fixed;
-  top: 5%;
-  left: 5%;
-  font-size: 2.5rem;
-  color: var(--clr-primary);
-  z-index: 1;
-  cursor: pointer;
-  animation: bounce 4s infinite;
-  -webkit-animation: bounce 4s infinite;}p{
-  width: 34em;
- max-width: 110%;}
-.firstpara {text-indent: 90px;}
-.secondpara {
-  margin: 0;
-  text-indent: 20px;}
-.thirdpara {
-  margin: 0;
-  text-indent: 50px;}
-.fourthpara {
-  margin: 0;
-  text-indent: 20px;}
-@media screen and (min-width: 570px) {
-  p{max-width: 120%;}
-}
-@media screen and (min-width: 750px) {
-  p{max-width: 200%;}
->>>>>>> 4e628ca (fifth commit)
 }
